@@ -1,4 +1,4 @@
-# Anywhere
+# Kahit Saan / Anywhere / Cualquier Lugar
 
 **Because "anywhere" isn't a plan.**
 
