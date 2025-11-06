@@ -26,17 +26,11 @@ Three languages, three personalities:
 - **Spanish:** "Cualquier Lugar" - Porque "cualquier lugar" no es un plan.
 - **Filipino:** "Kahit Saan" - Dahil ang hirap ng kahit saan.
 
-### 🎨 Modern Design
-- Clean, professional interface with Inter font
-- Warm, appetizing red-orange color scheme (proven to stimulate appetite!)
-- Dark mode support for comfortable viewing anytime
-- Smooth animations and hover effects
-
 ### 🔍 Smart Features
 - Filter by type: Restaurants, Cafes, or Bars
 - Get 3 random suggestions to make the choice easier
 - Direct links to Google Maps for viewing and directions
-- See cuisine types, addresses, and phone numbers
+- See cuisine types, addresses, and phone numbers (if available)
 
 ## 🚀 How It Works
 
