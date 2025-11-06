@@ -203,6 +203,8 @@
             if (navigator.geolocation) {
               setSearchingLocation(true);
               setError('');
+              
+              // Add timeout and better options for mobile
               navigator.geolocation.getCurrentPosition(
                 async (position) => {
                   const lat = position.coords.latitude;
@@ -229,8 +231,22 @@
                   setSearchingLocation(false);
                 },
                 (err) => {
-                  setError(t.unableLocation);
+                  // Better error messages based on error type
+                  if (err.code === 1) {
+                    setError('Location permission denied. Please enable location in your browser settings.');
+                  } else if (err.code === 2) {
+                    setError('Location unavailable. Please check your device settings.');
+                  } else if (err.code === 3) {
+                    setError('Location request timed out. Please try again.');
+                  } else {
+                    setError(t.unableLocation);
+                  }
                   setSearchingLocation(false);
+                },
+                {
+                  enableHighAccuracy: true,
+                  timeout: 10000,
+                  maximumAge: 0
                 }
               );
             } else {
