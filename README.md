@@ -29,7 +29,7 @@ When people say "anywhere," they usually end up nowhere. **Anywhere** solves thi
 Three languages, three personalities:
 - **English:** "Anywhere" - Because "anywhere" isn't a plan.
 - **Spanish:** "Cualquier Lugar" - Porque "cualquier lugar" no es un plan.
-- **Filipino:** "Kahit Saan" - Dahil ang hirap ng kahit saan.
+- **Filipino:** "Kahit Saan" - Dahil ang hirap hanapin ng kahit saan.
 
 ### 🔍 Smart Features
 - Filter by type: Restaurants, Cafes, or Bars
